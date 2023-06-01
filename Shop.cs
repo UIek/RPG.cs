@@ -70,6 +70,10 @@ namespace gra
                         bohater[0] += ile;
                         bohater[3] -= cena;
                     }
+                    else 
+                    {
+                        Console.WriteLine("Nie masz wystarczająco monet!!!");
+                    }
                     break;
                 case 2:
                     Console.WriteLine(" 1 - uzdrowoenie (150)");
